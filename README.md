@@ -49,22 +49,22 @@ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 - Set up zoom meetings if needed.
 
 ## Roles:
-# Role 1: Amani Albalushi 
+### Role 1: Amani Albalushi 
 - Set up, and manage repository 
 - Create README.md
 - Manage Dashboard, and create visualizations (Tableau)
 - Build Dashboard Frontend & Presentation
 - HTML page
-# Role 2: Kurt Otto 
+### Role 2: Kurt Otto 
 - Extract source data 
 - Perform exploratory data analysis 
 - Build visualizations
 - Build Frontend Interactivity
-# Role 3: Jeff Mosley 
+### Role 3: Jeff Mosley 
 - Perform machine learning analysis
 - Continue to develop and train ML model
 - Build dashboard backend
-# Role 4: Alexander Rivera 
+### Role 4: Alexander Rivera 
 - Perform ETL to process data
 - Design and build database 
 - Connect database to ML and backend
