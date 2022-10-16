@@ -1,7 +1,7 @@
 # Final_Project
 ## Week One:
 ### Select a topic
-- The relationship of movie factors to predict revenue
+- The relationship of movie factors ability to predict the movie's revenue.
 - The movie factors:
     - Budget
     - Genres
