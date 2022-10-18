@@ -37,6 +37,7 @@ copy
 		from public.clean_movies
 	) b
 	on a.id = b.id
+	where budget is not null
 )
 to 'C:/Final_Project/movie_data.csv' csv header; commit;
 
