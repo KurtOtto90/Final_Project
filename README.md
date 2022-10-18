@@ -17,8 +17,7 @@ a collection of	movie reviews provides a deeper	qualitative	insight	on different
     - Revenue
     - Runtime
     - Vote_average
-    - language (english or all of them) 
-    
+ 
 ## Why We selected this topic:
 - We enjoy watching movies, and wanted to see the relationship between factors of a movie, and the revenue. 
 ## Formulate a question
