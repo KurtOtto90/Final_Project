@@ -2,7 +2,7 @@
 ## Week One:
 
 ### Introduction: 
-- Movie	factors such reviews or release date are an	important way to gauge	the	performance	of a movie.	While providing	a	
+- Movie	factors such as reviews or release date are an	important way to gauge	the	performance	of a movie.	While providing	a	
 numerical data point or star rating to a movie tells us	about the success or failure of	a movie	quantitatively,	
 a collection of	movie reviews provides a deeper	qualitative	insight	on different aspects of the movie such as revenue of the movie. A movie's factor could be a predictive method which tells us about the potential movie revenue through machine learning analysis. Deeper analysis of movie factors review could possibly tell us if there is a relationship between movie factors, and the movie's revenue. 	
 
