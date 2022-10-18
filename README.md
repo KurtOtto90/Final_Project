@@ -47,7 +47,7 @@ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 
 ## Design Database
 - Use PostGres
-- Create multiple tables for each 
+- Create tables for each factor
 
 ## Description of Communications Protocols:
 - Contact on Slack for any help or questions needed. 
