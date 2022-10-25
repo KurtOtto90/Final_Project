@@ -37,6 +37,11 @@ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 - Single Regression 
 - Multiple regression
 
+##  Description of the data exploration phase of the project
+
+
+## Description of the analysis phase of the project
+
 ## Set up Repo
 - Create 1 table base 
 ## Build simple ML (Machine Learning) Model
