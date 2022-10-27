@@ -38,9 +38,23 @@ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 - Multiple regression
 
 ##  Description of the data exploration phase of the project
+- movies_metadata.csv: The main Movies Metadata file. Contains information on 45,000 movies featured in the Full MovieLens dataset. Features include posters, backdrops, budget, revenue, release dates, languages, production countries and companies.
+
+![image](https://user-images.githubusercontent.com/106709942/198164383-87044d81-e89e-4962-b201-99492fa73984.png)
+
+Process:
+- Data set was downloaded .
+- Needed factors were kept, while unnecessary ones were dropped.
+- Cleaned, and created tables. 
+- All tables were merged under one dataset.
+- Dataset is ready for use. 
+
 
 
 ## Description of the analysis phase of the project
+- We decided on linear regressions as we are main method of analysis because:
+when you want to know: How strong the relationship is between two variables (e.g. the relationship between movie factors and the movie’s revenue). The value of the dependent variable at a certain value of the independent variable (e.g. the amount of the movie factor at a certain level of revenue).
+- We have tried linear regression, random forest, and relevance test. 
 
 ## Set up Repo
 - Create 1 table base 
