@@ -58,6 +58,10 @@ when you want to know: How strong the relationship is between two variables (e.g
 
 ## Set up Repo
 - Create 1 table base 
+
+## ETL Process
+We took the original data file and used the jupyter notebook file titled movies_samples2.ipynb to drop exess data columns and used the movie_genre_id.ipynb to loop through the data and return the id and genre for each movie.  We then took these two files and used the SQL code in PG Admin to join the to tables and return our final data set to use in our Machine Learning Model.
+
 ## Build simple ML (Machine Learning) Model
 - Sample data 
     - Single regression 
