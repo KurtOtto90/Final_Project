@@ -38,9 +38,23 @@ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 - Multiple regression
 
 ##  Description of the data exploration phase of the project
+- movies_metadata.csv: The main Movies Metadata file. Contains information on 45,000 movies featured in the Full MovieLens dataset. Features include posters, backdrops, budget, revenue, release dates, languages, production countries and companies.
+
+![image](https://user-images.githubusercontent.com/106709942/198164383-87044d81-e89e-4962-b201-99492fa73984.png)
+
+Process:
+- Data set was downloaded .
+- Needed factors were kept, while unnecessary ones were dropped.
+- Cleaned, and created tables. 
+- All tables were merged under one dataset.
+- Dataset is ready for use. 
+
 
 
 ## Description of the analysis phase of the project
+- We decided on linear regressions as we are main method of analysis because:
+when you want to know: How strong the relationship is between two variables (e.g. the relationship between movie factors and the movie’s revenue). The value of the dependent variable at a certain value of the independent variable (e.g. the amount of the movie factor at a certain level of revenue).
+- We have tried linear regression, random forest, and relevance test. 
 
 ## Set up Repo
 - Create 1 table base 
@@ -48,6 +62,10 @@ https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 - Sample data 
     - Single regression 
     - Multiple regression
+
+The question we set out to answer is what factors could be used to best predict movie revenue. To answer this, we chose to use random forest regression and multiple linear regression. The choice to use both was made to compare one against the other to see which model produced the best results. The random forest regression is an ensemble of decision trees. Each individual tree is created from a different sample of rows and at each node, a different sample of features is selected for splitting. Each tree then makes its own individual prediction which are average to create a single result. Multiple linear regression also known as multiple regression or MLR is a statistical technique that is used to predict the outcomes of a variable based on one or more separate variables. The dependent variable is the one that we want to predict and the variables that are used for the prediction are known as independent variables. Knowing each type of regressions basic functionality and application influenced our decision in choosing these two models.
+When delving into the machine learning side of the project first we defined what question we were going to answer. Next, we needed to choose the types of regression models we were going to explore. The decision as stated before was based largely on the model’s capabilities but also on models that we have used before in the class challenges and lessons. For this we picked jupyter notebook files that accomplished the basic functionality we needed to import the data and perform the necessary preprocessing of the data set to perform the random forest regression. A lot of the random forest explained in class were more orientated to working with classification models. Because of this, we modified the file to perform regression.
+
 
 ## Design Database
 - Use PostGres
