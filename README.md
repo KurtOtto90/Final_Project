@@ -71,6 +71,9 @@ When delving into the machine learning side of the project first we defined what
 - Use PostGres
 - Create tables for each factor
 
+## Tableu dashboard
+https://public.tableau.com/app/profile/kurt.otto/viz/FinalProject_16672563414390/FinalProjectStoryboard?publish=yes
+
 ## Description of Communications Protocols:
 - Contact on Slack for any help or questions needed. 
 - Weekly tags up during class session.
