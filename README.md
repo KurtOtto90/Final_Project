@@ -78,6 +78,8 @@ When delving into the machine learning side of the project first we defined what
 ## Tableu dashboard
 https://public.tableau.com/app/profile/kurt.otto/viz/FinalProject_16672563414390/FinalProjectStoryboard?publish=yes
 
+http://127.0.0.1:5500/final.html#
+
 - Description of the tools that will be used to create the final dashboard
     - HTML, flask, tableau
 - Description of interactive element(s) 
