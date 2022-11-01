@@ -78,6 +78,18 @@ When delving into the machine learning side of the project first we defined what
 ## Tableu dashboard
 https://public.tableau.com/app/profile/kurt.otto/viz/FinalProject_16672563414390/FinalProjectStoryboard?publish=yes
 
+http://127.0.0.1:5500/final.html#
+
+- Description of the tools that will be used to create the final dashboard
+    - HTML is used to host all pages of our dashboard from the explanation of the analysis to merging the tableau interactive page of the analysis
+    - The dashboard will contain the following:
+        - Main page with title, and short description.
+        - Source page explaining the data used.
+        - Result page with tableau intergrated, and drop down bar showing regression analysis results as well as heat maps.
+- Description of interactive element(s) 
+    - Tableau on the HTML page will be out interactive section of the dashboard.
+    - Heatmaps showing the relationship between revenue, and factors.
+    - drop down with each linear regression module. 
 ## Description of Communications Protocols:
 - Contact on Slack for any help or questions needed. 
 - Weekly tags up during class session.
