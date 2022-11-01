@@ -79,9 +79,11 @@ When delving into the machine learning side of the project first we defined what
 https://public.tableau.com/app/profile/kurt.otto/viz/FinalProject_16672563414390/FinalProjectStoryboard?publish=yes
 
 - Description of the tools that will be used to create the final dashboard
-    - HTML, tableau
+    - HTML, flask, tableau
 - Description of interactive element(s) 
-
+    - Tableau on the HTML page will be out interactive section of the dashboard.
+    - Heatmaps showing the relationship between revenue, and factors.
+    - drop down with each linear regression module. 
 ## Description of Communications Protocols:
 - Contact on Slack for any help or questions needed. 
 - Weekly tags up during class session.
