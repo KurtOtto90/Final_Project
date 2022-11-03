@@ -52,7 +52,7 @@ Process:
 
 
 
-## Description of the analysis phase of the project
+## Description of the analysis phase of the project (add more!)
 - We decided on linear regressions as we are main method of analysis because:
 when you want to know: How strong the relationship is between two variables (e.g. the relationship between movie factors and the movie’s revenue). The value of the dependent variable at a certain value of the independent variable (e.g. the amount of the movie factor at a certain level of revenue).
 - We have tried linear regression, random forest, and relevance test. 
