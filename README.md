@@ -77,6 +77,10 @@ As a group we decided to keep the features of the analysis limited to id, title,
 ## Description of how data was split into training and testing sets
 The Train-Test-Split procedure involves taking a dataset and dividing it into two subsets. The first subset is used to fit the model and is referred to as the training dataset. The second subset is not used to train the model; instead, the input element of the dataset is provided to the model, then predictions are made and compared to the expected values. This second dataset is referred to as the test dataset. We   used a 20/80 split for our model’s predictive analysis. We used 80% of the dataset to train and the other 20% to test. Considerations we kept in mind when deciding how to split the data included whether we had sufficient data and computational efficiency. There are no optimal split ratios. The value can be adjusted to get better results. Different split ratios will work better for different data sets.
 
+## Explanation of model choice, including limitations and benefits
+When evaluating which model to use we chose to evaluate both multiple linear regression and random forest regression. Ultimately are decision was based on the type of data we were trying to evaluate. The aim was to predict movie revenue based off of a set of features in our data set. We looked at budget, genre, popularity, runtime, and id. When researching different predictive models and what they were traditionally used for we discovered random forest regression was an ideal candidate for this application. Likewise, multiple linear regression is used in a similar fashion. Multiple linear regression is used when you have a continuously distributed outcome variable (revenue) and more than one independent predictor variables (budget, popularity, genre….). It provides an analysis that enables you to identify the statistically significant predictors. These two forms of regression are used in similar applications, one uses an decision tree based analysis the other a statistical equation. We chose to use both to see which one would be a better predictor for our data set.
+
+
 
 
 
