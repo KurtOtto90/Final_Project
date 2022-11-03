@@ -65,11 +65,15 @@ We took the original data file and used the jupyter notebook file titled movies_
 
 ## Build simple ML (Machine Learning) Model
 - Sample data 
-    - Single regression 
+    - RandomForest Regression 
     - Multiple regression
 
 The question we set out to answer is what factors could be used to best predict movie revenue. To answer this, we chose to use random forest regression and multiple linear regression. The choice to use both was made to compare one against the other to see which model produced the best results. The random forest regression is an ensemble of decision trees. Each individual tree is created from a different sample of rows and at each node, a different sample of features is selected for splitting. Each tree then makes its own individual prediction which are average to create a single result. Multiple linear regression also known as multiple regression or MLR is a statistical technique that is used to predict the outcomes of a variable based on one or more separate variables. The dependent variable is the one that we want to predict and the variables that are used for the prediction are known as independent variables. Knowing each type of regressions basic functionality and application influenced our decision in choosing these two models.
 When delving into the machine learning side of the project first we defined what question we were going to answer. Next, we needed to choose the types of regression models we were going to explore. The decision as stated before was based largely on the model’s capabilities but also on models that we have used before in the class challenges and lessons. For this we picked jupyter notebook files that accomplished the basic functionality we needed to import the data and perform the necessary preprocessing of the data set to perform the random forest regression. A lot of the random forest explained in class were more orientated to working with classification models. Because of this, we modified the file to perform regression.
+
+## Description of feature engineering and the feature selection, including the decision-making process
+As a group we decided to keep the features of the analysis limited to id, title, budget, genre, popularity, release date, and revenue. With feature engineering it enabled us to build more complex models than we could with only raw data. It also allowed us to build interpretable models from the amount of data we had available in the database. The feature selection helped us limit these features to a manageable number. This reduced the risk of overwhelming the algorithms or the interpretation of our model. We also used the feature importance function from the sklearn library to evaluate which specific features weighed more heavily in the predictive analysis.
+
 
 
 ## Design Database
