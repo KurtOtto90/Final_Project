@@ -12,7 +12,7 @@ a collection of	movie reviews provides a deeper	qualitative	insight	on different
     - Budget
     - Genres
       - Movie labled under multiple Genres 
-      - Top 5 most common genres
+      - Top 4 most common genres
     - Release_date
     - Revenue
     - Runtime
@@ -21,8 +21,9 @@ a collection of	movie reviews provides a deeper	qualitative	insight	on different
 ## Why We selected this topic:
 - We enjoy watching movies, and wanted to see the relationship between factors of a movie, and the revenue. 
 ## Formulate a question
-- Can movie factors predict the movie’s revenue? 
-    - To use the reviews/score as a predictive (independent) variable instead of a dependent variable
+- Can movie factors predict the movie’s revenue?
+- Which movie factors are better predictors of the movies revenue?
+    - To use the reviews/score as a predictive (independent) variable instead of a dependent variable.
 ## Source Data
 https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 - CSV file 
@@ -51,7 +52,7 @@ Process:
 
 
 
-## Description of the analysis phase of the project
+## Description of the analysis phase of the project (add more!)
 - We decided on linear regressions as we are main method of analysis because:
 when you want to know: How strong the relationship is between two variables (e.g. the relationship between movie factors and the movie’s revenue). The value of the dependent variable at a certain value of the independent variable (e.g. the amount of the movie factor at a certain level of revenue).
 - We have tried linear regression, random forest, and relevance test. 
@@ -115,3 +116,7 @@ http://127.0.0.1:5500/final.html#
 - Perform ETL to process data
 - Design and build database 
 - Connect database to ML and backend
+
+#Presentation Link:
+
+https://docs.google.com/presentation/d/1c66mbawyzYyQgb2pCU98MmwLmdCjRU8aIeqzj0cFjEY/edit?usp=sharing
