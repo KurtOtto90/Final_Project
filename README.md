@@ -116,3 +116,7 @@ http://127.0.0.1:5500/final.html#
 - Perform ETL to process data
 - Design and build database 
 - Connect database to ML and backend
+
+#Presentation Link:
+
+https://docs.google.com/presentation/d/1c66mbawyzYyQgb2pCU98MmwLmdCjRU8aIeqzj0cFjEY/edit?usp=sharing
