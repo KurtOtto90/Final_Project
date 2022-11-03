@@ -21,8 +21,9 @@ a collection of	movie reviews provides a deeper	qualitative	insight	on different
 ## Why We selected this topic:
 - We enjoy watching movies, and wanted to see the relationship between factors of a movie, and the revenue. 
 ## Formulate a question
-- Can movie factors predict the movie’s revenue? 
-    - To use the reviews/score as a predictive (independent) variable instead of a dependent variable
+- Can movie factors predict the movie’s revenue?
+- Which movie factors are better predictors of the movies revenue?
+    - To use the reviews/score as a predictive (independent) variable instead of a dependent variable.
 ## Source Data
 https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
 - CSV file 
