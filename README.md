@@ -12,7 +12,7 @@ a collection of	movie reviews provides a deeper	qualitative	insight	on different
     - Budget
     - Genres
       - Movie labled under multiple Genres 
-      - Top 5 most common genres
+      - Top 4 most common genres
     - Release_date
     - Revenue
     - Runtime
