@@ -74,6 +74,10 @@ When delving into the machine learning side of the project first we defined what
 ## Description of feature engineering and the feature selection, including the decision-making process
 As a group we decided to keep the features of the analysis limited to id, title, budget, genre, popularity, release date, and revenue. With feature engineering it enabled us to build more complex models than we could with only raw data. It also allowed us to build interpretable models from the amount of data we had available in the database. The feature selection helped us limit these features to a manageable number. This reduced the risk of overwhelming the algorithms or the interpretation of our model. We also used the feature importance function from the sklearn library to evaluate which specific features weighed more heavily in the predictive analysis.
 
+## Description of how data was split into training and testing sets
+The Train-Test-Split procedure involves taking a dataset and dividing it into two subsets. The first subset is used to fit the model and is referred to as the training dataset. The second subset is not used to train the model; instead, the input element of the dataset is provided to the model, then predictions are made and compared to the expected values. This second dataset is referred to as the test dataset. We   used a 20/80 split for our model’s predictive analysis. We used 80% of the dataset to train and the other 20% to test. Considerations we kept in mind when deciding how to split the data included whether we had sufficient data and computational efficiency. There are no optimal split ratios. The value can be adjusted to get better results. Different split ratios will work better for different data sets.
+
+
 
 
 ## Design Database
