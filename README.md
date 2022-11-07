@@ -104,13 +104,13 @@ http://127.0.0.1:5500/final.html#
     - drop down with each linear regression module. 
 
 
-### Result of analysis
+## Result of analysis
 
 
-### Recommendation for future analysis
+## Recommendation for future analysis
 
 
-### Anything the team would have done different
+## Anything the team would have done different
 
 
 ## Description of Communications Protocols:
