@@ -83,11 +83,6 @@ When evaluating which model to use we chose to evaluate both multiple linear reg
 ### Description of how they have trained the model thus far, and any additional training that will take place
 How the models have been trained was basically making small adjustments here and there and rerunning the model. The models themselves take a little while to run so we tried to make adjustments where they would have the most positive affect on the accuracy of the prediction. The adjustments were adjusting values that pertained to how the data was trained based off of researching articles and videos of people performing similar analysis.
 
-
-
-
-
-
 ## Design Database
 - Use PostGres
 - Create tables for each factor
@@ -107,6 +102,17 @@ http://127.0.0.1:5500/final.html#
     - Tableau on the HTML page will be out interactive section of the dashboard.
     - Heatmaps showing the relationship between revenue, and factors.
     - drop down with each linear regression module. 
+
+
+### Result of analysis
+
+
+### Recommendation for future analysis
+
+
+### Anything the team would have done different
+
+
 ## Description of Communications Protocols:
 - Contact on Slack for any help or questions needed. 
 - Weekly tags up during class session.
