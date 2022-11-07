@@ -122,7 +122,7 @@ http://127.0.0.1:5500/final.html#
 ### Role 1: Amani Albalushi 
 - Set up, and manage repository 
 - Create README.md
-- Manage Dashboard, and create visualizations (Tableau)
+- Manage Dashboard
 - Build Dashboard Frontend & Presentation
 - HTML page
 ### Role 2: Kurt Otto 
