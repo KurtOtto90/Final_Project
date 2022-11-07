@@ -22,9 +22,34 @@
             </ul>
         </div>
     </div>
+
     <div class="content">
-    <img src="/images/heatmap1.png" alt="heatmap1">   
-    <img src="/images/regression.PNG" alt="regression">
+
+        <h1>Movie factors, and revenue analysis results </h1>
+
+        <div class="row" id="drop down bar">
+            <div class="col-md-12">
+
+              <select id="imageList" onchange="changePictures(this.value)">
+                <!-- <option value="Please Select Result Module">Please Select:</option> -->
+                <option value="Final_Project_Regression_model_1.png">Regression module</option>
+                <option value="Feature_Importance_Ranking_2.png">Importance Ranking module</option>
+                <option value="Observed vs Predicted_graph_3.png">Observed vs Predicted module</option>
+                <option value="Second_Predictive model_4.png">Predictive Module</option>
+                <option value="heatmap1.png">Heatmap 1</option> -->
+                <option value="heatmap_2.png">Heatmap 2</option> -->
+                <option value="results.png">Results</option> -->
+            
+              </select>
+              <br>
+              <br>
+              <br>
+            </div>
+          </div>
+
+
+    <img id="picture_1" src="images/Final_Project_Regression_model_1.png" alt="heatmap1">   
+    <!-- <img id="picture_2" src="/images/regression.PNG" alt="regression"> -->
     </div> 
     <div class='tableauPlaceholder' id='viz1667264637160' style='position: relative'><noscript><a href='#'><img
         alt='Final Project Storyboard '
@@ -49,6 +74,8 @@
 <script
 type='text/javascript'>                    var divElement = document.getElementById('viz1667264637160'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1016px'; vizElement.style.height = '991px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="static/js/results.js"></script>
 </body>
 
 </html>
