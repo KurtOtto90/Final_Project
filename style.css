@@ -59,12 +59,32 @@
     color: rgb(252, 250, 250);
  }
  .content{
-    font-size: 50px;
-    margin-top: 80px;
+    font-size: 30px;
+    margin-top: 40px;
  }
  .content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 50px;
  }
+ .content2{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(252, 250, 250);
+ }
+ .content2{
+    font-size: 30px;
+    margin-top: 80px;
+ }
+ .content2 p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 50px;
+ }
 
+.hi{
+    color: #009688;
+}
