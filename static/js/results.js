@@ -2,6 +2,7 @@ console.log("This is results.js");
 
 // get picture references
 var picture_1 = d3.select("#picture_1");
+
 var caption_div = d3.select("#image-caption");
 
 var image_paths = {

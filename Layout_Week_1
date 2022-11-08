@@ -1,0 +1,34 @@
+Week One tasks:
+Select a topic
+Movies reviews and Gross spending
+Sentiment analysis 
+Formulate a question
+ dataset has two main tables/csv files: one contains data for each film and the other for each review. With that in mind, there are two major directions you can go:
+What factors are most predictive of a film's final "tomatometer" score? Or
+Can we predict whether a review is classified as positive or negative based on the review text or metadata about the review?
+to use the tomatometer score as a predictive (independent) variable instead of a dependent variable
+Lets say we add another dataset for gross profit. Would we need to then merge the datasets to see if positive reviews lead to higher gross profit?
+ 
+pick one major question (e.g., what I said above) and then pose a few hypothesis
+Source Data
+Rotten Tomato
+Possibly the Gross Profit (if we decide to go that route)
+Perform exploratory analysis 
+Review length split according to sentiment 
+Positive reviews and negative
+Word Count of reviews 
+Most frequently used words before stop words are removed from the review
+Distribution of reviews ranking
+Binary sentiment analysis (under 3 over 3) 
+Sentiment labels 
+0 - negative
+1 - somewhat negative
+2 - neutral
+3 - somewhat positive
+4 - positive
+
+
+Word Cloud of most used words
+Set up Repo
+Build simple ML (Machine Learning) Model
+Design Database
