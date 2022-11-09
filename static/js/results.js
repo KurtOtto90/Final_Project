@@ -20,7 +20,7 @@ var image_captions = {
     Observed: "This is a good visulization of how the two sets of data overlay using the Random forest regression model. ",
     Predicted: "This plot shows how the model fits the residuals.",
     heatmap1: "Comparing models against each other can show us which one performed better as a predictive analysis but they can also validate each other to a certain extent. We can see the correlation matrix below backs up what the feature importance scores showed us using random forest regression.",
-    heatmap2: "This heatmap shows the correlation between ",
+    heatmap2: "This heatmap shows the relationship between features as well as revenue interesected.",
     results:"The Multiple Linear Regression results have a test score and a train score that are nearly identical when only weighing features budget and popularity."
 
 }
