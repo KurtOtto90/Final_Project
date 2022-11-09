@@ -83,6 +83,37 @@ When evaluating which model to use we chose to evaluate both multiple linear reg
 ### Description of how they have trained the model thus far, and any additional training that will take place
 How the models have been trained was basically making small adjustments here and there and rerunning the model. The models themselves take a little while to run so we tried to make adjustments where they would have the most positive affect on the accuracy of the prediction. The adjustments were adjusting values that pertained to how the data was trained based off of researching articles and videos of people performing similar analysis.
 
+### Description and explanation of model's confusion matrix, including final accuracy score
+
+### Random Forest Regression
+In our Random Forest Regression model, the MAE for the ytest_pred came out to be 11183482. Compared to the mean revenue of 65358375, the MAE is not as low as we would like to see in an ideal senario. The MAE was close to 17% of the mean revenue. Below is a graph of how the observered revenue compares to the predicted revenue. This is a good visulization of how the two sets of data overlay using the Random forest regression model.
+
+![Obs Vs Pred(color)](https://user-images.githubusercontent.com/104540261/200843139-0f9b5124-7bcc-4afc-9992-f7d05e2bc928.png)
+
+This plot shows how the model fits the prediction error
+
+![Final_Project_Regression_model](https://user-images.githubusercontent.com/104540261/200883184-160c5e57-d8b7-4723-b23e-65ca856468d9.png)
+
+This plot shows how the model fits the residuals
+
+![Second_Predictive model](https://user-images.githubusercontent.com/104540261/200883286-f81638f6-e930-473b-b27a-5fee27fea796.png)
+
+The feature importance ranking shows us what features played a significant factor in the predictive analysis. As suspected budget and popularity features play a strong role.
+
+![Feature_Importance_Ranking](https://user-images.githubusercontent.com/104540261/200883390-9613455d-239f-4f68-a9df-88b0fd0f937b.png)
+
+### Multiple Linear Regression
+
+Comparing models against each other can show us which one performed better as a predictive analysis but they can also validate each other to a certain extent.
+We can see the correlation matrix below backs up what the feature importance scores showed us using random forest regression.
+
+![heatmap1](https://user-images.githubusercontent.com/104540261/200883633-398f7e1c-9387-481f-9574-89950d146d14.png)
+
+Likewise the Multiple Linear Regression results have a test score and a train score that are nearly identical when only weighing features budget and popularity.
+
+![results](https://user-images.githubusercontent.com/104540261/200883770-e32bf668-1f78-4f07-b958-02cc2e84ab4b.png)
+
+
 ## Design Database
 - Use PostGres
 - Create tables for each factor
