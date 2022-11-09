@@ -7,7 +7,7 @@ var caption_div = d3.select("#image-caption");
 var image_paths = {
     regression: "Final_Project_Regression_model_1.png",
     importance: "Feature_Importance_Ranking_2.png",
-    Observed: "Observed vs Predicted_graph_3.png",
+    Observed: "Observed vs Predicted_graph_2.png",
     Predicted: "Second_Predictive model_4.png",
     heatmap1: "heatmap1.png",
     heatmap2: "heatmap_2.png",
