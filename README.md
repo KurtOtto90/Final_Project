@@ -123,6 +123,8 @@ https://public.tableau.com/app/profile/kurt.otto/viz/FinalProject_16672563414390
 
 http://127.0.0.1:5500/final.html#
 
+https://kurtotto90.github.io/Final_Project/
+
 - Description of the tools that will be used to create the final dashboard
     - HTML is used to host all pages of our dashboard from the explanation of the analysis to merging the tableau interactive page of the analysis
     - The dashboard will contain the following:
