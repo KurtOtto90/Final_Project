@@ -138,12 +138,22 @@ https://kurtotto90.github.io/Final_Project/
 
 
 ## Result of analysis
+- In our Random Forest Regression model, the MAE for the ytest_pred came out to be 11183482. Compared to the mean revenue of 65358375, the MAE is not as low as we would like to see in an ideal scenario. The MAE was close to 17% of the mean revenue. Below is a graph of how the observed revenue compares to the predicted revenue. - - This is a good visualization of how the two sets of data overlay using the Random forest regression model.
+The feature importance ranking shows us what features played a significant factor in the predictive analysis. As suspected budget and popularity features play a strong role.
+- Comparing models against each other can show us which one performed better as a predictive analysis but they can also validate each other to a certain extent. We can see the correlation matrix below backs up what the feature importance scores showed us using random forest regression.
+Likewise the Multiple Linear Regression results have a test score and a train score that are nearly identical when only weighing features budget and popularity.
+- To maximize revenue for a potential movie the best combination would be an animated movie with a large budget that would be released in the month of June, and test well with audiances. 
 
 
 ## Recommendation for future analysis
+- Look into how movie ratings may affect total movie revenues
+- Re-assessing and expanding theory/question, framework or model you have addressed in your research
+- Look at how actors may affect movie box office performance
 
 
 ## Anything the team would have done different
+- Looked into how movie ratings or star actors could affect revenue.
+- Bigger dataset, the ability to expose more features to feed your data, and identify outliers.
 
 
 ## Description of Communications Protocols:
